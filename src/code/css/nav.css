@@ -1,0 +1,87 @@
+    body {
+      margin: 0;
+      background-color: #000;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 12.5px 40px;
+      margin: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+
+      border-radius: 10px;
+      background: rgba(37, 37, 37, 0.384);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(40, 40, 40, 0.3);
+    }
+
+    .navbar-left,
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navbar-left {
+      justify-content: flex-start;
+    }
+
+    .navbar-right {
+      justify-content: flex-end;
+    }
+
+    .navbar-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .dropdown::after {
+      content: " ▼";
+      font-size: 0.7em;
+    }
+
+    .search-input {
+      background-color: #111;
+      border: 1px solid #444;
+      padding: 6px 10px;
+      color: white;
+    }
+
+    .alert-badge {
+      background-color: red;
+      color: white;
+      font-size: 0.6em;
+      padding: 2px 4px;
+      border-radius: 3px;
+      margin-left: 4px;
+    }
+    
+    img.logo {
+      height: 40px;
+    }
+
+    img.logo:hover {
+      animation-name: brighness-logo;
+      animation-duration: 0.5s;
+      filter: brightness(150%)
+    }
+
+    @keyframes brighness-logo {
+        from {filter: brightness(100%)}
+      to {filter: brightness(150%)}
+    }
+
+    @keyframes birghness_text {
+      from {color: white;}
+      to {color: #eb3a3a;}
+   }
