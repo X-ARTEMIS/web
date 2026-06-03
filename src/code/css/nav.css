@@ -4,6 +4,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Styling */
+
 .navbar {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -87,6 +89,8 @@ img.logo:hover {
 
   filter: brightness(100%);
 }
+
+/* Animations */
 
 @keyframes logogrey-in {
   from {filter: brightness(85%);}
