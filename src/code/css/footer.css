@@ -1,0 +1,17 @@
+body {
+    min-height: 115vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 3.5%;
+  width: 90%;
+
+  margin: 10px;
+
+  border-radius: 10px;
+  background: rgba(37, 37, 37, 0.384);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(174, 174, 174, 0.3);
+}
