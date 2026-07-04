@@ -53,6 +53,7 @@ body {
 .navbar a:hover {
   animation-name: textgrey-in;
   animation-duration: 0.5s;
+  color: white;
 }
 
 @keyframes textgrey-in {
